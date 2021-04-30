@@ -121,8 +121,8 @@ function liGenerator (catColor, catName, ...ribbon){
     if(ribbon.length > 0){
         ribbonTag = `
                         <i class="fas fa-ribbon" 
-                        style="color:${ribbon[0]} 
-                               opacity:${ribbon[1]}" </li>
+                        style="color:${ribbon[0]}
+                               opacity:${ribbon[1]}" </i>
                     `
     };
     let html = `
