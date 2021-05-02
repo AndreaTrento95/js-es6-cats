@@ -76,10 +76,10 @@ $(document).ready(function(){
 
     // stampo a schermo usando il forEach per prendere ciascun 'gatto'
     maleCats.forEach((cat) => {
-        $('#milestone-2-male').append(liGenerator(cat.color, cat.name, cat.ribbon.color, cat.ribbon.opacity));
+        $('#milestone-2-male ul').append(liGenerator(cat.color, cat.name, cat.ribbon.color, cat.ribbon.opacity));
     });
     femaleCats.forEach((cat) => {
-        $('#milestone-2-female').append(liGenerator(cat.color, cat.name, cat.ribbon.color, cat.ribbon.opacity));
+        $('#milestone-2-female ul').append(liGenerator(cat.color, cat.name, cat.ribbon.color, cat.ribbon.opacity));
     });
     
 
